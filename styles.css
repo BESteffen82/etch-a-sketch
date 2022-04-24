@@ -2,9 +2,18 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
+    height: 500px;
+    width: 800px;
+    
+
 }
 
-.square {
-    height: 60px;
-    width: 60px;
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;  
 }
+   
+    
