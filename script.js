@@ -1,9 +1,15 @@
 const container = document.querySelector('.container');
 
-for (x=0; x< 256; x++){
+let rows = 16;
+let columns = 16;
+
+for (let x=0; x< (rows * columns); x++){
   const square = document.createElement('div');
   square.classList.add('square');
-  square.textContent = 'Test';
   container.appendChild(square);  
-}
 
+  square.addEventListener('mouseenter', e => {
+      e.target.style.backgroundColor = 'skyblue';
+  });
+
+}
