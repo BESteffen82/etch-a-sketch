@@ -1,14 +1,15 @@
 .container {
     display: grid;
-    height: 600px;
+    height: 650px;
     width: 1000px;
     border: 5px solid black;
-}
+    margin-top: 30px;
+    background-color: white;
+}    
 
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100vh;
     margin: 0;
     align-items: center;  
@@ -19,26 +20,65 @@ body {
     background-color: white;
 }
    
-.rangeslider {
-    width: 50%;
-}
-
 .gridslider {
-    background-color: greenyellow;
-    width: 50%;
+    width: 150px;
     height: 20px;
     opacity: 2;
+}
+
+.rangeslider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
 }
 
 .gridslider:hover {
     opacity: 1;
 }
 
-.myslider::-webkit-slider-thumb {
-    cursor: pointer;
-    background-color: blueviolet;
-    width: 5%;
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    height: 10%;
+    align-items: center;       
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    margin: 20px;
+    font-size: 70px;
+    align-items: flex-start;
+}
+
+footer {
+    display: flex;
     height: 20px;
+    align-items: center;
+    height: 3%;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background-color: red;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+}
+
+.black, .rainbow, .clear {
+    width: 120px;
+    height: 60px;
 }
 
     

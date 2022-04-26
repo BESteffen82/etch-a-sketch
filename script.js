@@ -1,6 +1,6 @@
 
 
-function createGame(num=10){
+function createGame(num=16){
 for (let x=0; x < (num * num); x++){
   const container = document.querySelector('.container');
   const square = document.createElement('div');
@@ -46,7 +46,7 @@ function clearGame() {
 let gridSlider = document.getElementById('gridRange');
 let output = document.getElementById('size');
 gridSlider.oninput = function () {
-  output.innerHTML = `${this.value} X ${this.value}`;
+  output.textContent = `${this.value} X ${this.value}`;
   clearGame();
   createGame(num = this.value);
 }

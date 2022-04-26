@@ -9,16 +9,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">Etch-A-Sketch</div>
-    <div class="container"></div><br>
-    <div class="rangeslider">
-      <input type="range" min="16" max="64" value="1" 
-        class="gridslider" id="gridRange">
-      <p>Grid size: <span id='size'>16 X 16</span></p>           
+    <div class=border>
+        <div class="header">Etch-A-Sketch</div>
+        <div class="container"></div><br>
+        <div class=inputs>
+            <div class="rangeslider">
+                <p>Grid size: <span id='size'>16 X 16</span></p>
+                <input type="range" min="16" max="64" value="1" 
+                    class="gridslider" id="gridRange">
+            </div>          
+            <div class=buttons>
+                <button class="black">Black</button>
+                <button class="rainbow">Rainbow</button>
+                <button class="clear">Erase</button>
+            </div>
+        </div>
     </div>
-    <button class="black">Black</button>
-    <button class="rainbow">Rainbow</button>
-    <button class="clear">Erase</button>
     <footer>Built by <a href='https://github.com/BESteffen82'>BESteffen82</a></footer>
 </body>
 </html>
+    
+    
