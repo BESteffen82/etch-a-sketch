@@ -2,7 +2,7 @@
     display: grid;
     height: 650px;
     width: 1000px;
-    border: 5px solid black;
+    border: 2px solid black;
     margin-top: 30px;
     background-color: gainsboro;
     border-radius: 15px;
@@ -18,22 +18,24 @@ body {
 
 .square {
     border: 1px hidden black;
-    background-color: white;
+    background-color: gainsboro;
 }
    
 .gridslider {
     width: 150px;
     height: 20px;
     opacity: 2;
+    transition: opacity .2s;
 }
 
 .rangeslider {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+    font-weight: 700;
 }
 
 .gridslider:hover {

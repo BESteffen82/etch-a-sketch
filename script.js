@@ -28,7 +28,7 @@ for (let x=0; x < (num * num); x++){
     
   const clear = document.querySelector('.clear');
   clear.addEventListener('click', function() {
-    square.style.backgroundColor = 'white'
+    square.style.backgroundColor = 'gainsboro'
   });
 
 };
