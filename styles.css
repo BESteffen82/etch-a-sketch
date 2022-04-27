@@ -8,6 +8,7 @@
     border-radius: 25px;
     border-style: groove;
     border-width: 6px;
+    flex-shrink: 0;
 }    
 
 body {
@@ -16,7 +17,10 @@ body {
     height: 100vh;
     margin: 0;
     align-items: center;
-    background-image: url(images/blue-and-green-wood_1280x1024.jpg);  
+    background-image: url(images/blue-and-green-wood_1280x1024.jpg);
+    overflow-y: scroll;
+    overflow-x: scroll;
+    flex-shrink: 0;  
 }
 
 .square {
@@ -83,7 +87,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 1300px;
     height: 100%;
     background-color: red;
     margin: 20px 0;
@@ -91,6 +95,7 @@ footer {
     border-style: groove;
     border-width: 10px;
     border-color: darkred;
+    flex-shrink: 1;
 }
 
 .buttons {
