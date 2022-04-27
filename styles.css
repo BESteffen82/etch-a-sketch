@@ -2,12 +2,12 @@
     display: grid;
     height: 650px;
     width: 1000px;
-    border: 2px solid black;
+    border: 2px solid gray;
     margin-top: 30px;
     background-color: gainsboro;
-    border-radius: 20px;
+    border-radius: 25px;
     border-style: groove;
-    border-width: 3px;
+    border-width: 6px;
 }    
 
 body {
@@ -25,10 +25,10 @@ body {
 }
    
 .gridslider {
-    width: 150px;
-    height: 20px;
+    width: 160px;
+    height: 60px;
     opacity: 2;
-    transition: opacity .2s;
+    transition: opacity .1s;
 }
 
 .rangeslider {
@@ -39,6 +39,8 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     font-weight: 700;
+    color: gold;
+    text-shadow: 2px 2px goldenrod;
 }
 
 .gridslider:hover {
@@ -61,6 +63,9 @@ body {
     align-items: flex-start;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+    font-weight: 700;
+    color: gold;
+    text-shadow: 2px 2px goldenrod;
 }
 
 footer {
@@ -68,6 +73,10 @@ footer {
     height: 20px;
     align-items: center;
     height: 3%;
+    font-size: 30px;
+    color: goldenrod;
+    gap: 10px;
+    font-weight: 800;
 }
 
 .border {
@@ -78,10 +87,10 @@ footer {
     height: 100%;
     background-color: red;
     margin: 20px 0;
-    border-radius: 20px;
+    border-radius: 25px;
     border-style: groove;
-    border-width: 6px;
-    border-color: red;
+    border-width: 10px;
+    border-color: darkred;
 }
 
 .buttons {
@@ -91,8 +100,23 @@ footer {
 
 .black, .rainbow, .clear {
     width: 120px;
-    height: 60px;
+    height: 70px;
     background-color: whitesmoke;
+    border-radius: 15px;
+    border-width: 3px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 2px 2px goldenrod;
+    border-style: groove;
+    border-color: darkgray;
+    opacity: 1;
+}
+
+.black:hover, .rainbow:hover, .clear:hover {
+    opacity: 3;
+    background-color: goldenrod;
 }
 
     

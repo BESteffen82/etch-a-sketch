@@ -1,6 +1,6 @@
 
 
-function createGame(num=16){
+function createGame(num){
 for (let x=0; x < (num * num); x++){
   const container = document.querySelector('.container');
   const square = document.createElement('div');
