@@ -5,7 +5,9 @@
     border: 2px solid black;
     margin-top: 30px;
     background-color: gainsboro;
-    border-radius: 15px;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 3px;
 }    
 
 body {
@@ -13,7 +15,8 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    align-items: center;  
+    align-items: center;
+    background-image: url(images/blue-and-green-wood_1280x1024.jpg);  
 }
 
 .square {
@@ -75,7 +78,10 @@ footer {
     height: 100%;
     background-color: red;
     margin: 20px 0;
-    border-radius: 15px;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 6px;
+    border-color: red;
 }
 
 .buttons {
@@ -86,6 +92,7 @@ footer {
 .black, .rainbow, .clear {
     width: 120px;
     height: 60px;
+    background-color: whitesmoke;
 }
 
     
